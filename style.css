@@ -2,7 +2,7 @@ body {
 	font-size: 100%;
 	line-height: 1.61803399; /* "Golden Ratio" */
 	font-family: sans-serif;
-	color: #272727;
+	color: #444444;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
