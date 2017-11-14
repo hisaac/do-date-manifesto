@@ -1,6 +1,6 @@
 html {
 	font-size: 1em;
-	line-height: 1.61803399; /* "Golden Ratio" */
+	line-height: 1.61803399; /* The "Golden Ratio" */
 	font-family: sans-serif;
 	color: #444;
 	-ms-text-size-adjust: 100%;
@@ -13,17 +13,19 @@ main {
 	padding: 5px;
 }
 
-h1, h2 {
+h1 {
+	margin-bottom: 0;
+}
+
+h1,
+h2 {
 	font-family: serif;
 	line-height: 1.2;
 }
 
-header, footer {
+header,
+footer {
 	text-align: center;
-}
-
-h1 {
-	margin-bottom: 0;
 }
 
 footer p {
@@ -33,6 +35,6 @@ footer p {
 
 hr {
 	max-width: 82ch;
-    border: 0;
-    border-top: 1px solid #ccc;
+	border: 0;
+	border-top: 1px solid #ccc;
 }
