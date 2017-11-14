@@ -16,10 +16,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: serif;
   line-height: 1.2; }
 
-h1 {
+h1, .copyright {
   text-align: center;
   margin-bottom: 0; }
 
 hr {
   margin-top: 10px;
   margin-bottom: 10px; }
+
+a {
+  color: #df622c; }
