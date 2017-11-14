@@ -76,9 +76,18 @@
 			This site and its code are hosted <a href="https://github.com/hisaac/do-date-manifesto">on GitHub</a>
 		</p>
 		<p>
-			&copy; 2017 <a href="https://hisaac.net">Isaac Halvorson</a>
+			&copy; <span id="yearRange"></span> <a href="https://hisaac.net">Isaac Halvorson</a>
 		</p>
 	</footer>
 </body>
+
+<script type="text/javascript">
+	var currentYear = new Date().getFullYear();
+	if (currentYear == 2017) {
+		document.getElementById("yearRange").innerHTML = "2017";
+	} else {
+		document.getElementById("yearRange").innerHTML = "2017–" + currentYear;
+	}
+</script>
 
 </html>
