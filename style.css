@@ -1,28 +1,29 @@
 body {
-  background-color: #FFFBD7;
-  font-size: 100%;
-  line-height: 1.61803399;
-  font-family: sans-serif;
-  color: #272727;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+	font-size: 100%;
+	line-height: 1.61803399; /* "Golden Ratio" */
+	font-family: sans-serif;
+	color: #272727;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
 
 main {
-  max-width: 80ch;
-  margin: 0 auto;
-  padding: 5px; }
+	max-width: 80ch;
+	margin: 0 auto;
+	padding: 5px;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: serif;
-  line-height: 1.2; }
+	font-family: serif;
+	line-height: 1.2;
+}
 
 h1, .copyright {
-  text-align: center;
-  margin-bottom: 0; }
+	text-align: center;
+	margin-bottom: 0;
+}
 
 hr {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-a {
-  color: #df622c; }
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
