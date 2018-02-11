@@ -5,13 +5,13 @@
 	<title>The Do Date Manifesto</title>
 	<meta name="description" content="The Do Date Manifesto, by Isaac Halvorson" />
 	<meta name="apple-mobile-web-app-title" content="Do Date" />
-    
+
     <meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="The Do Date Manifesto" />
 	<meta name="twitter:description" content="A Do Date is a time to work on the things that have no due date." />
 	<meta name="twitter:site" content="@hisaac" />
 
-	<meta charset="utf-8" />	
+	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<style>
@@ -141,18 +141,14 @@
 			This site and its code are hosted <a href="https://github.com/hisaac/do-date-manifesto">on GitHub</a>
 		</p>
 		<p>
-			&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a>
+			&copy; <span id="yearRange"></span><a href="https://hisaac.net">Isaac Halvorson</a>
 		</p>
 	</footer>
 </body>
 
 <script type="text/javascript">
-	var currentYear = new Date().getFullYear();
-	if (currentYear == 2017) {
-		document.getElementById("yearRange").innerHTML = "2017";
-	} else {
-		document.getElementById("yearRange").innerHTML = "2017–" + currentYear;
-	}
+	// Inserts the correct year into the copyright's year range
+	document.getElementById("yearRange").innerHTML = "2017–" + new Date().getFullYear() + ", ";
 </script>
 
 </html>
