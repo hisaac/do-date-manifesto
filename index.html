@@ -17,12 +17,29 @@
 	<style>
 		html {
 			color: #444;
-			font-family: sans-serif;
 			font-size: 1em;
 			line-height: 1.61803399; /* The "Golden Ratio" */
 			padding: 0 5px 20px;
 			-ms-text-size-adjust: 100%;
 			-webkit-text-size-adjust: 100%;
+			font-family:
+				-apple-system,           /* iOS Safari, macOS Safari, macOS Firefox */
+				BlinkMacSystemFont,      /* macOS Chrome */
+				"Segoe UI",              /* Windows */
+				Roboto,                  /* Android, Chrome OS */
+				"Droid Sans",            /* Older versions of Android */
+				"Fira Sans",             /* Firefox OS */
+				"Oxygen",                /* KDE Linux */
+				"Oxygen-Sans",           /* KDE Linux */
+				"Ubuntu",                /* Ubuntu Linux */
+				"Cantarell",             /* GNOME Linux */
+				"Helvetica Neue",        /* macOS 10.11+ */
+				Helvetica,               /* macOS 10.0–10.10 */
+				Arial,                   /* All */
+				"Apple Color Emoji",     /* Apple Emoji 😊 */
+				"Segoe UI Emoji",        /* Windows Emoji 😎 */
+				"Segoe UI Symbol",       /* Windows Emoji 🤓 */
+				sans-serif;
 		}
 
 		main {
@@ -53,10 +70,8 @@
 			line-height: .5;
 		}
 
-		a,
-		a:active,
-		a:visited {
-			color: #0000EE;
+		a:any-link {
+			color: green;
 		}
 	</style>
 </head>
@@ -111,6 +126,12 @@
 				The location of your Do Date is obviously up to you, but you’ll want to choose someplace easily accessible by the rest of your group, and quiet enough to concentrate. Some good options are coffee shops, libraries, parks, or someone’s home. Groups can even meet remotely, via video chat, instant messaging, or through a social network like Twitter.
 			</li>
 		</ul>
+
+		<h2>Want to go on a Do Date?</h2>
+
+		<p>
+			If you're in the Twin Cities area, contact me via <a href="mailto:hello@hisaac.net">email</a> or <a href="https://twitter.com/hisaac">Twitter</a> and I'll put you on our mailing list to be notified when my friends and I meet up.
+		</p>
 	</main>
 
 	<hr />
@@ -121,9 +142,6 @@
 		</p>
 		<p>
 			&copy; <span id="yearRange"></span>, <a href="https://hisaac.net">Isaac Halvorson</a>
-		</p>
-		<p>
-			<a href="mailto:hello@hisaac.net">email</a> • <a href="https://twitter.com/hisaac">twitter</a>
 		</p>
 	</footer>
 </body>
